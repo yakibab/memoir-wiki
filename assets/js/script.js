@@ -4,15 +4,16 @@ function loadHeader() {
         .then(data => {
             document.getElementById('header-stuff').innerHTML = data;
 
-            const mobileIcon = document.querySelector('.mobile-icon');
-            const navMenu = document.querySelector('.nav-links');
+            const hamburgerBtn = document.getElementById('hamburger-btn');
+            const navMenu = document.getElementById('navmenu');
 
-            if (mobileIcon && navMenu) {
-                mobileIcon.addEventListener('click', function() {
+            if (hamburgerBtn && navMenu) {
+                hamburgerBtn.addEventListener('click', function() {
                     navMenu.classList.toggle('active');
                 });
             }
-        });
+        })
+        .catch(error => console.error('Error loading header:', error));
 }
 
 document.addEventListener("DOMContentLoaded", loadHeader);
