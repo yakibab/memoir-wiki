@@ -1,0 +1,11 @@
+C:\Users\Keith\Documents\Codes\program\bin\Debug\net9.0\program.deps.json
+C:\Users\Keith\Documents\Codes\program\bin\Debug\net9.0\program.dll
+C:\Users\Keith\Documents\Codes\program\bin\Debug\net9.0\program.pdb
+C:\Users\Keith\Documents\Codes\program\obj\Debug\net9.0\program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Keith\Documents\Codes\program\obj\Debug\net9.0\program.AssemblyInfoInputs.cache
+C:\Users\Keith\Documents\Codes\program\obj\Debug\net9.0\program.AssemblyInfo.cs
+C:\Users\Keith\Documents\Codes\program\obj\Debug\net9.0\program.csproj.CoreCompileInputs.cache
+C:\Users\Keith\Documents\Codes\program\obj\Debug\net9.0\program.dll
+C:\Users\Keith\Documents\Codes\program\obj\Debug\net9.0\refint\program.dll
+C:\Users\Keith\Documents\Codes\program\obj\Debug\net9.0\program.pdb
+C:\Users\Keith\Documents\Codes\program\obj\Debug\net9.0\ref\program.dll
