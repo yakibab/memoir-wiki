@@ -1,13 +1,17 @@
-function toggleMenu() {
-    const menu = document.getElementById("navmenu");
-    menu.classList.toggle("active");
-}
-
 function loadHeader() {
     fetch('header.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header-stuff').innerHTML = data;
+
+            const mobileIcon = document.querySelector('.mobile-icon');
+            const navMenu = document.querySelector('.nav-links');
+
+            if (mobileIcon && navMenu) {
+                mobileIcon.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                });
+            }
         });
 }
 
